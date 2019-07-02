@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgba(255,255,255,0);
+}
+/*导航*/
+.nav_top{
+    position: absolute;
+    height:100px;
+    background-color:rgba(30,33,35,0.8);
+    animation:fadeInDown 0.5s ease 1 forwards;
+}
+/*导航左侧logo*/
+.logo2{
+    margin-left: -156px;
+}
+/*主导航*/
+.nav-link{
+    padding-top:32px;
+    padding-bottom: 8px;
+    color:#e6e6e6;
+    font-size:18px;
+    text-align: center;
+    vertical-align: baseline;
+}
+/*悬浮时字体颜色*/
+.nav-link:hover{
+    color:#f6f6f6;
+}
+/*字体大小*/
+.nav-link>span{
+    font-size: 14px;
+}
+/*媒体查询*/
+    /*此宽度时显示首页右侧链接*/
+@media screen and (min-width: 1247px) {
+    /*微信*/
+    .wx{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat 0 100%;
+        margin-top:36px;
+    }
+    .wx:hover{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat 0 1px;
+        margin-top:36px;
+    }
+    /*微博*/
+    .wb{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -40px 100%;
+        margin-top:36px;
+    }
+    .wb:hover{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -40px 1px;
+        margin-top:36px;
+    }
+    /*贴吧*/
+    .tb{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -80px 100%;
+        margin-top:36px;
+    }
+    .tb:hover{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -80px 1px;
+        margin-top:36px;
+    }
+    /*QQ*/
+    .qq{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -120px 100%;
+        margin-top:36px;
+    }
+    .qq:hover{
+        width:36px;
+        height:36px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -120px 1px;
+        margin-top:36px;
+    }
+}
+    /*此宽度时更改logo的大小 总链接图标出现*/
+@media screen and (max-width: 1246px){
+    .logo{
+        height:74px;
+        margin-left:-130px;
+        margin-top:14px;
+    }
+    /*总*/
+    .zlj{
+        width:36px;
+        height:34px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -160px 100%;
+        margin-top:38px;
+    }
+    .zlj:hover{
+        width:36px;
+        height:34px;
+        background: transparent url("../images/header_img/share_icon.png") no-repeat -160px -1px;
+        margin-top:38px;
+    }
+}
+    /*此宽度时更改字体大小*/
+@media screen and (max-width:1046px ) {
+    .nav-link{
+        font-size:16px;
+    }
+}
+    /*此宽度时logo2隐藏*/
+@media screen and (max-width: 991px){
+    .logo2{
+        display: none;
+    }
+}
+    /*此宽度时更改 字体大小*/
+@media screen and (max-width: 611px) {
+    .nav-link{
+        font-size:10px;
+    }
+}

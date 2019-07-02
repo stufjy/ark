@@ -1,0 +1,126 @@
+*{margin:0;padding:0}
+.header{
+    height:100px;
+    position: fixed;
+    z-index:1;
+}
+.footer{
+    height:150px;
+}
+body{
+    background-color:#f3f3f3;
+}
+.container-fluid>img{
+    margin-top:100px;
+}
+.main{
+    margin-top:-13%;
+}
+/*左侧*/
+.left{
+    width:15%;
+    background-color:rgba(17,16,16,.8);
+    margin-left:15%;
+}
+.left>h5{
+    font-size:100%;
+    margin-top:20px;
+    color:#e2dfd5;
+}
+    /*下载按钮*/
+.dbtn{
+    opacity:.8;
+}
+.dbtn:hover{
+    opacity: 1;
+}
+.left>h4{
+    font-size: 100%;
+    color:#e2dfd5;
+    margin-top:20px;
+}
+    /*QQ图标*/
+.qq{
+    display: inline-block;
+    width:36px;
+    height:36px;
+    background: transparent url("../images/info_img/share_icon.png") no-repeat -120px 100%;
+}
+.qq:hover{
+    width:36px;
+    height:36px;
+    background: transparent url("../images/info_img/share_icon.png") no-repeat -120px 1px;
+}
+    /*微博图标*/
+.wb{
+    display: inline-block;
+    width:36px;
+    height:36px;
+    background: transparent url("../images/header_img/share_icon.png") no-repeat -40px 100%;
+}
+.wb:hover{
+    width:36px;
+    height:36px;
+    background: transparent url("../images/info_img/share_icon.png") no-repeat -40px 1px;
+}
+
+/*右侧*/
+.right{
+    width:55%;
+    background-color:rgba(255,255,255,0.5)
+}
+    /*标题*/
+h2{
+    width:100%;
+    font-size:20px;
+    margin-top:5%;
+    padding-bottom:3%;
+    color:#76756f;
+    border-bottom: 1px dotted #ccc;
+}
+    /*书本小图标*/
+.sb{
+    width:30px;
+    height:30px;
+    background:transparent url("../images/info_img/icon.png") no-repeat 0 0;
+}
+    /*旗子小图标*/
+.qz{
+    width:30px;
+    height:30px;
+    background:transparent url("../images/info_img/icon.png") no-repeat 0 30%;
+}
+    /*纸张小图标*/
+.zh{
+    width:30px;
+    height:30px;
+    background:transparent url("../images/info_img/icon.png") no-repeat 0 66%;
+}
+    /*内容*/
+a{
+    font-size:14px;
+    color:#2e2e2e;
+    text-decoration: none;
+}
+a:hover{
+    color:#963;
+    text-decoration: none;
+}
+._a{
+    width:80px;
+    height:14px;
+    background:transparent url("../images/info_img/link-icon.png")no-repeat 0 100%;
+}
+._a:hover{
+    width:80px;
+    height:14px;
+    background:transparent url("../images/info_img/link-icon.png")no-repeat 0 0;
+}
+._a>span{
+    display:block;
+    margin-top:-3px;
+}
+    /*底部空白*/
+.last{
+    margin-bottom: 50%;
+}

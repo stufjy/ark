@@ -1,0 +1,177 @@
+*{margin:0;padding:0}
+.header{
+    height:100px;
+    position: fixed;
+    z-index:1000;
+}
+.footer{
+    height:150px;
+}
+a:hover{
+    text-decoration: none;
+}
+.w-70{
+    width: 70% !important;
+}
+.new_none{
+    display: none;
+}
+.new_block{
+     display: block;
+ }
+/*头部*/
+.news_top{
+    width:90%;
+    line-height:300%;
+    margin:0 auto;
+}
+.news_top>.p_left{
+    font-size:24px;
+    color:#333;
+}
+.news_top>.p_left>span {
+    color: #999;
+    font-size: 20px;
+    padding-top: 4px;
+}
+.news_top .p_right p{
+    display: block;
+    float: left;
+    padding-left: 16px;
+    background: url(../images/news_img/place.png) center left no-repeat;
+}
+.news_top .p_right a{
+    color: #454545;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.news_top .p_right span{
+    display: block;
+    float: left;
+    padding: 0 8px;
+}
+
+/*主内容*/
+    /*区域*/
+.news_main{
+    width:90%;
+    margin:0 auto;
+    margin-top:8%;
+}
+.news_main_left{
+    width:70%;
+    border-top:1px solid #ccc;
+}
+    /*虚线下边框*/
+.bor{
+    padding-bottom:8%;
+    border-bottom:1px dashed #ccc;
+}
+.bor:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.left_left p{
+    width: 79px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/news_img/rect.png) center no-repeat;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.left_right a {
+    color: #333;
+    display: block;
+    padding: 3% 0;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.left_right span{
+    margin-top: 7%;
+}
+    /*左侧下部页码*/
+#ym{
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom:8%;
+}
+
+    /*右侧*/
+.news_main_right{
+    width:30%;
+    border:1px solid #ccc;
+}
+.news_main_right .dl{
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    padding:13%;
+    background:url(../images/news_img/dl.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.news_main_right .dl:hover{
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    background:url(../images/news_img/dl.png) no-repeat;
+    background-size: 100% 100%;
+}
+.news_main_right p{
+    color: #333;
+    font-size: 22px;
+    text-align: center;
+    padding-top:14%;
+    padding-bottom: 10%;
+}
+.news_main_right>.n_qrcode{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+    /*小图标*/
+    /*微博*/
+div>.wb{
+    margin-top:10%;
+    margin-bottom:25%;
+    width:10%;
+    padding:5%;
+    background:url("../images/news_img/apt_icon.png") no-repeat 0 82%;
+    background-size:400% 221%;
+    margin-left: 24%;
+}
+div>.wb:hover{
+    background:url("../images/news_img/apt_icon.png") no-repeat 0 0;
+    background-size:400% 220%;
+}
+    /*qq*/
+div>.qq{
+    margin-top:10%;
+    width:10%;
+    padding:5%;
+    margin-left:10%;
+    background:url("../images/news_img/apt_icon.png") no-repeat 50% 83%;
+    background-size:400% 220%;
+}
+div>.qq:hover{
+    background:url("../images/news_img/apt_icon.png") no-repeat 50% 0;
+    background-size:400% 220%;
+}
+    /*贴吧*/
+div>.tb{
+    margin-top:10%;
+    width:10%;
+    padding:5%;
+    margin-left:10%;
+    background:url("../images/news_img/apt_icon.png") no-repeat 100% 83%;
+    background-size:400% 220%;
+}
+div>.tb:hover{
+    width:10%;
+    padding:5%;
+    background:url("../images/news_img/apt_icon.png") no-repeat 100% 0;
+    background-size:400% 220%;
+}

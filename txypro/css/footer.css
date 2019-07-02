@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0}
+.foot{
+    height:150px;
+    background-color: #f0f0f5;
+}
+.f_t{
+    padding-top:45px;
+    color:#999;
+    line-height: 2;
+ }
